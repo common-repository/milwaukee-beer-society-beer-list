@@ -1,0 +1,174 @@
+@import url("fontello/css/fontello.css");
+
+#beerlist{
+	padding-top: 10px;
+}
+#beerlist p{
+	margin-top: 0px;
+	margin-bottom: 2px;
+}
+#beerlist input{
+	text-overflow: ellipsis;
+	font-size: 1em;
+	color: black;
+}
+
+
+#bl_search{
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+#bl_search_instructions{
+	font-style: italic;
+	padding-bottom: 30px;
+	padding-left: 60px;
+	
+}
+
+#beerlist p.item_inputs, #bl_headers{
+	margin-left: .38em;
+	margin-right: 1em;
+}
+
+#beerlist p.item_inputs:last-child{
+	margin-bottom: 30px;
+}
+
+#bl_headers span{
+	font-weight: 600;
+	display: inline-block;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+#beerlist .controls{
+	width: 1%;
+}
+
+#beerlist .bName{
+	width: 21%
+}
+#beerlist .rName{
+	width: 22%;
+}
+#beerlist .rLocation{
+	width: 20%
+}
+#beerlist .bStyle{
+	width: 18%
+}
+#beerlist .bABV{
+	width: 7%
+}
+#beerlist .bIBU{
+	width: 5%;
+	vertical-align:bottom;
+}
+#beerlist .controlbox{
+	display:inline-block;
+	width: 1%;
+	vertical-align: middle;
+	line-height: 1.1;
+}
+#beerlist .controlbox.deletebox{
+	padding-left: 3px;
+}
+#beerlist .controlbox.handlebox,
+#beerlist .controls{
+	margin-right: 10px;
+}
+#beerlist .controlbox .icon{
+	display: block;
+	font-size: 100%;
+	cursor: pointer;
+}
+#beerlist .controlbox .icon.sortarrow{
+	cursor:move; cursor:-webkit-grab; cursor:-moz-grab; cursor:grab;
+}
+#beerlist .controlbox .icon.sortarrow:hover::before{
+	color: #DCBF00;
+}
+#beerlist .controlbox .icon.delete:hover::before{
+	color: red;
+}
+
+#beerlist .bCode, #beerlist .bLabel, #beerlist .bImg{
+	display:none;
+}
+ .ui-autocomplete{
+		font-family: ProximaNova, 'Helvetica Neue', Helvetica;
+		/*line-height: 12px;*/
+   }
+   .ui-autocomplete .ac_item:first-child{
+	/*padding-top:0;*/
+   }
+   .ui-autocomplete .ac_item {
+      border-bottom: 1px solid #f2f2f2;
+      padding: 8px;
+	  height: 49px;
+      display: block;
+	  line-height: inherit;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      .ui-autocomplete .ac_item:last-child {
+       border-bottom: none; }
+      .ui-autocomplete .ac_item:hover {
+        background-color: #f8f8f8;
+		border:none;		}
+      .ui-autocomplete .ac_item .label {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+		padding: 0;
+		margin: 0;
+		/*vertical-align: bottom;*/
+         }
+        .ui-autocomplete .ac_item .label img {
+          width: 100%;
+		  }
+      .ui-autocomplete .ac_item .info {
+        display: inline-block;
+        /*vertical-align: top;*/
+        /*width: 180px;*/
+		height: 32px;
+		margin: 0;
+        padding-left: 8px;
+        /*padding-top: 2px; */}
+        .ui-autocomplete .ac_item .info .ac_beer, .ui-autocomplete .ac_item .info .ac_brewery {
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        .ui-autocomplete .ac_item .ac_beer {
+          color: #333;
+          font-size: 1.108em;
+          font-weight: 600; }
+        .ui-autocomplete .ac_item .ac_brewery {
+          color: #999;
+          font-size: 0.887em;
+          line-height: 1.125em;
+		  padding-left: 0px;}
+    .search_box .ui-autocomplete .see-more-results {
+      background-color: #eee;
+      text-align: center;
+      padding: 12px;
+      font-weight: 600; }
+  
+.bl-active .switch-bl, .blem-active .switch-blem {
+  background: #f5f5f5;
+  color: #555;
+  border-bottom-color: #f5f5f5;
+}	
+
+button.wp-switch-editor[disabled]{
+	color: #bbbbbb;
+	cursor: default;
+}
+
+/*****************Email Editor*****************/
+#emailfriendly textarea{
+	width: 100%;
+	height: 300px;
+}

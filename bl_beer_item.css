@@ -1,0 +1,118 @@
+#bl_area{
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+	#bl_area .bl_item {
+      padding-top: 4px;
+      padding-bottom: 12px;
+      padding-right: 8px;
+	  padding-left: 56px;
+	  margin: 0 !important;
+	  height: 49px;
+      display: block;
+	  line-height: inherit;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; 
+	  }
+	  #bl_area .bl_item:hover {
+	    background-color: #eee !important;
+		cursor: pointer;
+	  }
+/*      #bl_area .bl_item .label {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+		padding: 0;
+		margin: 0;
+		//vertical-align: bottom;
+         }
+        #bl_area .bl_item .label img {
+          width: 100%;
+		  }*/
+	#bl_area .bl_item div{
+		display: inline-block;
+	}
+
+	#bl_area .bl_item .meat{
+		width: 65%
+	}
+	#bl_area .bl_item .bones{
+		width: 34%;
+		vertical-align:top;
+		margin-top:4px;
+	}
+	#bl_area .bl_item .bones p{
+		margin: 0;
+		line-height: 1.3 !important;
+	}
+	#bl_area .bl_item .bones p span{
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+	}
+      #bl_area .bl_item .info {
+        display: inline-block;
+        /*vertical-align: top;*/
+        /*width: 180px;*/
+		height: 56px;
+		margin: 0;
+	padding-top: 2px;
+        padding-left: 8px;
+		line-height: 1.3 !important;
+        /*padding-top: 2px; */}
+        #bl_area .bl_item .info .bl_beer, #bl_area .bl_item p.info, #bl_area .bl_item .info .bl_beer, #bl_area .bl_item p.other {
+          display: block;
+		}
+		#bl_area .bl_item .info .bl_beer, #bl_area .bl_item .info .bl_brewery, #bl_area .bl_item .info .bl_location {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #bl_area .bl_item .bl_beer {
+		  display: block;
+		  height: 20px;
+          color: #333;
+          font-size: 1.108em;
+          font-weight: 600; }
+        #bl_area .bl_item .bl_brewery,#bl_area .bl_item .bl_location,#bl_area .bl_item .bl_style,#bl_area .bl_item .bl_deets,#bl_area .bl_item .other .bl_abv,#bl_area .bl_item .other .bl_ibu {
+		  display: inline-block;
+          color: #666;
+          font-size: 0.887em;
+          line-height: 1.125em;
+		  padding-left: 0px;}     
+		#bl_area .bl_item .bl_location {		  
+		  padding-left: 3px;
+		}
+        #bl_area .bl_item .other .bl_brewery,#bl_area .bl_item .other .bl_style,#bl_area .bl_item .other .bl_deets{
+          color: #666;
+          font-size: 0.887em;
+          line-height: 1.125em;
+		  padding-left: 0px;}
+		 #bl_area .bl_item .other .bl_abv,#bl_area .bl_item .other .bl_ibu{
+		  font-size: 1em;
+		  vertical-align: bottom;
+		 }
+@media screen and (max-width: 550px) {
+    #bl_area .bl_item .meat {
+        width: 100%;
+    }
+    #bl_area .bl_item .bones {
+        display:none;
+    }
+	#bl_area .bl_item .bl_beer {
+		height: 16px;
+	}
+	#bl_area .bl_item .info .bl_location{
+		display:none;
+	}
+	#bl_area{
+		padding-left: 0px;
+	}
+	#bl_area .bl_item {
+		padding-left: 44px;
+	}
+	#bl_area .bl_item .info {
+		padding-left: 0px;
+	}
+}
